@@ -1,0 +1,17 @@
+// Perform a basic reset for our project and set the project-wide font definitions
+* { // we use the universal selector to reset browsers' settings
+	margin: 0;
+	padding: 0;
+
+	box-sizing: border-box;
+}
+
+body {
+	padding: 30px; // add white border around all the page
+
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.7;
+	color: $grey_font_color;
+}

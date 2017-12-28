@@ -1,0 +1,45 @@
+//define rules for our text animations
+		@keyframes moveInLeft {
+			0% {
+				opacity: 0;
+				transform: translateX(-100px);
+			}
+
+			80% {
+				transform: translateX(10px);
+			}
+
+			100% {
+				opacity: 1;
+				transform: translateX(0);
+			}
+		} // end of @keyframes moveInLeft
+
+		@keyframes moveInRight {
+			0% {
+				opacity: 0;
+				transform: translateX(100px);
+			}
+
+			80% {
+				transform: translateX(-10px);
+			}
+
+			100% {
+				opacity: 1;
+				transform: translateX(0);
+			}
+		} // end of @keyframes moveInRight
+
+// define rule for ourbutton animation
+@keyframes moveInBottom {
+			0% {
+				opacity: 0;
+				transform: translateY(30px);
+			}
+
+			100% {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		} // end of @keyframes moveInBottom
